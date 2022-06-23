@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source_files = 'SubstrateSdk/Classes/**/*'
   s.dependency 'IrohaCrypto/sr25519', '~> 0.9.0'
   s.dependency 'IrohaCrypto/ed25519', '~> 0.9.0'
-  s.dependency 'IrohaCrypto/secp256k1', '~> 0.9.0'
+  # s.dependency 'IrohaCrypto/secp256k1', '~> 0.9.0'
   s.dependency 'IrohaCrypto/Scrypt', '~> 0.9.0'
   s.dependency 'IrohaCrypto/ss58', '~> 0.9.0'
   s.dependency 'ReachabilitySwift', '~> 5.0'
